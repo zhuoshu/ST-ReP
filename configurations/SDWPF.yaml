@@ -1,0 +1,28 @@
+## data
+dataset_name: SDWPF
+root_path: ./datasets/SDWPF/
+data_path: SDWPF.npz
+input_length: 12
+predict_length: 12
+in_dim: 1
+
+## model 
+modelid: default
+d_model: 64
+n_heads: 2
+M: 8
+time_factor: 3
+num_layers: 3
+hasCross: 1
+tau: 3
+spatial_dropout: 0.1
+spatial_att_dropout: 0.1
+st_emb_dropout: 0.1
+rep_dropout: 0.1
+
+## downstream model
+ds_modelid: ridge
+
+## loss
+alpha: 0.3
+beta: 0.5
