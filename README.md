@@ -1,4 +1,4 @@
-This the official implementation of ST-ReP: Learning Predictive Representations Efficiently for Spatial-Temporal Forecasting (AAAI 2025).
+This the official implementation of ST-ReP: Learning Predictive Representations Efficiently for Spatial-Temporal Forecasting (AAAI 2025). [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/33465)]
 
 ## Requirements
 
@@ -65,3 +65,20 @@ Thanks to the following inspiring research and their valuable codes.
 * TS2Vec (https://github.com/zhihanyue/ts2vec)
 * Autoformer (https://github.com/thuml/Autoformer)
 * STEP (https://github.com/GestaltCogTeam/STEP)
+
+## Cite
+If you find this project helpful, please cite us:
+```bibtex
+@article{STReP_2025,
+title={ST-ReP: Learning Predictive Representations Efficiently for Spatial-Temporal Forecasting},
+volume={39},
+url={https://ojs.aaai.org/index.php/AAAI/article/view/33465},
+DOI={10.1609/aaai.v39i12.33465},
+number={12},
+journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+author={Zheng, Qi and Yao, Zihao and Zhang, Yaying},
+year={2025},
+month={Apr.},
+pages={13419-13427}
+}
+```
