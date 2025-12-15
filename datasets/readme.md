@@ -18,3 +18,4 @@ Then the following python scripts needs to be executed to obtain the npz file fo
     python prepareSDWPF.py
  ```
 
+For convenience, we provide the preprocessed npz files at [Google Drive](https://drive.google.com/drive/folders/17ws8EHUGUK2xb5QWd6BUCvRooednpapc?usp=sharing).
